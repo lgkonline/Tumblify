@@ -1,0 +1,38 @@
+*:focus {
+    outline: none !important;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: url(../images/bg.jpg) no-repeat;
+    background-size: cover;
+    font-family: "Montserrat", sans-serif;
+}
+
+#logo {
+    font-family: "Kaushan Script", cursive;
+    font-size: 4em;
+    text-align: center;
+    color: #db5344;
+    padding: 0 0 40px 0;
+}
+
+#wrapper {
+    background: rgba(255,255,255,.4);
+    padding: 40px;
+    margin: 40px;
+    border-radius: 4px;
+}
+
+#submit-btn {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: block;
+}
